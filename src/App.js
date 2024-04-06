@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import EditorMonaco from './components/EditorMonaco';
 
 const AppLayout = () => {
     return (
-        <div>
-            <h1>Hello World!</h1>
+        <div className="">
+            <EditorMonaco/>
         </div>
     );
 };
